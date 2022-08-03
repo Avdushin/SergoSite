@@ -1,0 +1,238 @@
+:root {
+--text: #707070;
+--btn-color: #306ef7;
+}
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+ a {
+ 	color: var(--text);
+ 	text-decoration: none;
+ }
+ select, option{
+    font-family: 'poppins', sans-serif;
+ }
+ h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+ }
+ b{
+    color: white;
+    width: 75px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    padding-left: 9.82px;
+}
+ .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 140px;
+    margin: 46px auto;
+    height: 56px;
+    align-items: center;|
+ }
+ .menu-item{
+   padding-left: 39px;
+ }
+ .menu-item:hover, .header-select:hover, .menu-registration__item:hover{
+    color: var(--btn-color);
+ }
+ .menu-registration__item{
+    padding-right: 24px;
+ }
+ .menu-registration_btn{
+    width: 119px;
+    height: 55px;
+    background: var(--btn-color);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    transition: all .3s;
+ }
+ .menu-registration_btn:hover{
+    box-shadow: 0px 0px 10px 7px rgba(60, 130, 244, 0.4);
+  }
+.header-select{
+    background: black;
+    color:var(--text);   
+    border: none;
+    outline: none;
+    font-weight: 500;
+    width: 105px;
+}
+.oya {
+    color: white;
+    font-weight: 700;
+    font-size: 6.9rem;
+    line-height: 168px;
+    width: 67.7%;
+    text-align: center;
+    margin: 128px auto;
+}
+.oya span {
+    width: 100%;
+    background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .sydlt{
+    width: 1312.87px;
+    height: 119.28px;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 168px;
+    background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    color: white;
+    padding-left: 303px;
+} */
+.turn{
+    color: white;
+    width: 80%;
+    height: 120px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gsn{
+    color: white;
+    width: 313px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 23px 75px;
+    cursor: pointer;
+    border: none;
+    background: #326cf9;
+    transition: all .3s;
+}
+.gsn:hover{
+    box-shadow: 0px 0px 10px 7px rgba(60, 130, 244, 0.4);
+}
+.vad {
+    color: #707070;
+    width: 313px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 24px 21px;
+    cursor: pointer;
+    border: 1px solid #707070;
+    background: black;
+    transition: all .3s;
+}
+.vad:hover {
+    background: #cecece;
+    color: #000;
+    transition: all .3s;
+}
+.container-buttons{
+    /* padding-left: 634px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 5;
+}
+.circle-btn{
+    width: 21.6px;
+    height: 21.6px;
+    background: #0fc65c;
+    box-shadow: 0px 0px 10px 7px rgba(159, 237, 191, 0.4);
+    border-radius: 30px;
+    border: none;
+}
+.circle{
+    /* padding-left: 714.58px; */
+    text-align: center;
+    padding-top: 22px;
+}
+.chas{
+    color: #707070;
+    width: 373px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+/* dobr */
+.why {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.why h2 { /* размер заголовка второго уровня */
+    font-size: 75px;
+}
+.why-text {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    gap: 205px;
+    flex-wrap: wrap;
+}
+.smile-content {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    align-items: center;
+    vertical-align: middle;
+    gap: 6px;
+    font-size: 35px;
+}
+.descr {
+    /* отступ описания 10px сверху как в макете */
+    margin: 10px auto;
+}
+/* STEP 1 */
+.first-step {
+    text-align: center;
+}
+.first-step h3 {
+    margin-top: 200px;
+    font-size: 75px;
+    font-weight: 600;
+}
+.step {
+}
+.step-descr {
+    width: 929px;
+    margin: 0 auto;
+    height: 90px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #707070;
+    padding: 0px 0px 80px 0px;
+}
+.first-step .vad {
+}
+
+/* mobile */
+@media screen and (max-width: 666px) {
+    .oya { /* сделал текст поменьше, чтобы не улетало на мобилке */
+        color: white;
+        font-weight: 700;
+        font-size: 4.9rem;
+        line-height: 168px;
+        width: 100%;
+    }
+}

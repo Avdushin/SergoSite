@@ -207,25 +207,71 @@ body {
     text-align: center;
 }
 .first-step h3 {
-    margin-top: 200px;
     font-size: 75px;
     font-weight: 600;
+    margin: 0px;
 }
 .step {
+    margin-top: 200px;
+    color: #3D82F2;
+    padding: 0;
 }
 .step-descr {
+    margin: 0px auto;
     width: 929px;
-    margin: 0 auto;
     height: 90px;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 45px;
     font-weight: 400;
     color: #707070;
-    padding: 0px 0px 80px 0px;
+    padding: 0px 0px 40px 0px;
 }
-.first-step .vad {
+/* home page */
+.home-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 374px;
 }
-
+.home-page__left {
+    text-align: left;
+}
+.home-page__left h4 {
+    font-size: 75px;
+    font-weight: 700;
+    margin: 0;
+}
+.home-page__left span {
+    color:#3C82F4;
+}
+.head {
+    font-size: 30px;
+    font-weight: 500;
+}
+.nums__item {
+    display: flex;
+    gap: 12px;
+}
+.hp-btns {
+    display: flex;
+    margin-top: 66.5px;
+    gap: 24px;
+}
+.home-page__left .gsn {
+    color: white;
+    width: 207px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 18px 10px;
+}
+.home-page__left .vad {
+    width: 207px;
+    height: 77px;
+    padding: 18px 22px;
+}
+.home-page__right {
+    padding-left: 228px;
+}
 /* mobile */
 @media screen and (max-width: 666px) {
     .oya { /* сделал текст поменьше, чтобы не улетало на мобилке */

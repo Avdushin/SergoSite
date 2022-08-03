@@ -1,3 +1,3 @@
 ### Site for Sergo
 
-![Demo](Preview/fp.png)
+![Demo](Assets/Preview/fp.png)
